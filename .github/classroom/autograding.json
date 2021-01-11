@@ -3,7 +3,7 @@
     {
       "name": "PyTest",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest tests.py",
+      "run": "pytest -s tests.py",
       "input": "",
       "output": "",
       "comparison": "included",
