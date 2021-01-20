@@ -62,7 +62,17 @@ def main():
   elif food == "No" or food == "n" or food == "no" or food == "N":
     print("That's good")
   else: 
-    print("Oh ok")    
+    print("Oh ok")
+  a = input("I had a nice time talking to you! Did you enjoy our conversation?: ")
+  if a == "yes" or a == "Yes" or a == "y" or a == "Y":
+    print("I'm glad you enjoyed our conversation")
+  elif a == "no" or a == "No" or a == "n" or a == "N":
+    print("I'm sorry to hear that I hope you enjoy our next conversation better.")
+  else: 
+    print("Oh ok")
+    
+  goodbye = ["Have a good day", "goodbye", "Talk to you soon"] 
+  random.choice(goodbye)  
 
 
 if __name__ == "__main__":
