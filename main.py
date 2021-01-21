@@ -24,7 +24,7 @@ def run_tests():
 def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
-  print("My name is Chat Bot and my friends call me Fiona!")
+  print("My name is Chat Bot")
   name = input("What's your name?: ")
   name_list = ["That's Awesome", "How cool", "I love your name", name + " is a great name!"]
   print(random.choice(name_list))
@@ -70,7 +70,7 @@ def main():
     print("I'm sorry to hear that I hope you enjoy our next conversation better.")
   else: 
     print("Oh ok")
-    
+
   goodbye = ["Have a good day", "goodbye", "Talk to you soon"] 
   random.choice(goodbye)  
 
